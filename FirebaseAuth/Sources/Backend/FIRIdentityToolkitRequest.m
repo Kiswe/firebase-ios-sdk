@@ -28,10 +28,10 @@ static NSString *const kFirebaseAuthAPIURLFormat =
 static NSString *const kIdentityPlatformAPIURLFormat = @"%@//%@/v2/%@?key=%@";
 static NSString *const kEmulatorHostAndPrefixFormat = @"%@/%@";
 
-static NSString *gAPIHost = @"www.googleapis.com";
+static NSString *gAPIHost = @"cnp-dev.kiswe.com";
 
-static NSString *kFirebaseAuthAPIHost = @"www.googleapis.com";
-static NSString *kIdentityPlatformAPIHost = @"identitytoolkit.googleapis.com";
+static NSString *kFirebaseAuthAPIHost = @"cnp-dev.kiswe.com";
+static NSString *kIdentityPlatformAPIHost = @"cnp-dev.kiswe.com";
 
 static NSString *kFirebaseAuthStagingAPIHost = @"staging-www.sandbox.googleapis.com";
 static NSString *kIdentityPlatformStagingAPIHost =

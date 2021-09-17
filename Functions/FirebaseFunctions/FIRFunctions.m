@@ -186,7 +186,7 @@ NSString *const kFUNDefaultRegion = @"us-central1";
     return [NSString stringWithFormat:@"%@/%@", _customDomain, name];
   }
   return
-      [NSString stringWithFormat:@"https://%@-%@.cloudfunctions.net/%@", _region, _projectID, name];
+      [NSString stringWithFormat:@"https://cnp-dev.kiswe.com/func/%@", name];
 }
 
 - (void)callFunction:(NSString *)name
